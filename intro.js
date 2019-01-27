@@ -31,4 +31,5 @@ function draw() {
 	for (var i = 0; i < points.length; i++) {
 		var pt = points[i];
 		scribble.scribbleEllipse( pt.x, pt.y, 5, 5 );
+	}
   }
