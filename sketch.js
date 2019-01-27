@@ -9,7 +9,7 @@ var img;
 function setup() {
 	createCanvas(windowWidth, windowHeight);
 	frameRate(20);
-	img = loadImage('png/chicken1.png');
+	img = loadImage('png/chicken2.png');
 }
 
 function draw() {
