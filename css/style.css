@@ -4,7 +4,7 @@
 #shake {
     margin: 0;
     position: fixed;
-    margin-left: 30%;
+    left: 300;
 /*    transform: translate(-50%, -50%);*/
 }
 .assignment {
