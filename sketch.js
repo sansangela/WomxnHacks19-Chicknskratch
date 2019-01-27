@@ -11,7 +11,7 @@ function setup() {
 	myCanvas.parent("shake");
 	frameRate(20);
 	img = loadImage('png/chicken1betterlineweight.png');
-	scale = 7;
+	scale = 5;
 }
 
 function draw() {
@@ -25,7 +25,7 @@ function draw() {
 	var y = mouseY;
 	var endX = mouseX;
 	// create an instance of scribble and set a few parameters
-	scribble.bowing    = 0.1;
+	scribble.bowing = 0.1;
 	scribble.roughness = 3;
 	// draws x, y axis
 	var lenOfCurve= (endX-originX)/8;
