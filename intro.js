@@ -1,6 +1,6 @@
 var scribble = new Scribble();
 var windowHeight = window.innerHeight*0.6;
-var windowWidth = window.innerWidth*2/3;
+var windowWidth = window.innerWidth/3;
 
 let font;
 var myCanvas;
@@ -21,6 +21,6 @@ function draw() {
 	stroke(0);
 	textFont(font);
 	textSize(30);
-	text("move left hand to change amplitude, right hand for pitch",windowWidth/10, windowHeight/3);
+	text("move left hand to change amplitude, right hand for pitch",0, windowHeight/3);
 }
 
