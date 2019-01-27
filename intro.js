@@ -27,7 +27,6 @@ function draw() {
 	background(255);
 	stroke(0);
 	let margin = 10;
-	text("move left hand to change amplitude, right hand for pitch")
 	for (var i = 0; i < points.length; i++) {
 		var pt = points[i];
 		scribble.scribbleEllipse( pt.x, pt.y, 1, 1 );
