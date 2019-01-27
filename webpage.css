@@ -1,10 +1,9 @@
 @font-face {
     font-family: 'northenregular';
-    src: url('https://5ft3squirrel.github.io/chicknskratch/webfontkit-20190127-020307/northen-webfont.woff2') format('woff2'),
-         url('https://5ft3squirrel.github.io/chicknskratch/webfontkit-20190127-020307/northen-webfont.woff') format('woff');
+    src: url('webfontkit-20190127-020307/northen-webfont.woff2') format('woff2'),
+         url('webfontkit-20190127-020307/northen-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 body{
  background:#FFFFF0;
