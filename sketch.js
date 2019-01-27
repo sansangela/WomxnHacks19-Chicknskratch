@@ -8,7 +8,7 @@ var img;
 function setup() {
 	createCanvas(windowWidth, windowHeight);
 	frameRate(20);
-	//img = loadImage('png/chicken1betterlineweight.png');
+	img = loadImage('png/chicken1betterlineweight.png');
 }
 
 function draw() {
