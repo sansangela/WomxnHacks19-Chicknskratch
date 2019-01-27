@@ -13,7 +13,7 @@ function preload() {
 
 function setup() {
 	myCanvas = createCanvas(windowWidth, windowHeight);
-	myCanvas.parent("shake");
+	//myCanvas.parent("shake");
 	stroke(0);
 	fill(0);
 	points = font.textToPoints("move left hand to change amplitude, right hand for pitch", 0, 0, 10, {
