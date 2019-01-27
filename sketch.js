@@ -8,7 +8,8 @@ var img;
 function setup() {
 	createCanvas(windowWidth, windowHeight);
 	frameRate(20);
-	img = loadImage('png/chicken1betterlineweight.png');
+	//img = loadImage('png/chicken1betterlineweight.png');
+	svg = loadShape('png/chicken1betterlineweight.png');
 }
 
 function draw() {
@@ -29,7 +30,7 @@ function draw() {
 	scribble.scribbleLine(originX, originY, endX, originY );
 	scribble.scribbleLine(originX, originY-windowHeight/2, originX, originY);
 	scribble.scribbleRect(originX,originY,15,15);
-	image(img, mouseX-img.width/(2*7)+displacementChickenX, originY-img.height/(7*2)+displacementChickenY, img.width/7, img.height/7);
+	shape(svg, mouseX-svg.width/(2*7)+displacementChickenX, originY-svg.height/(7*2)+displacementChickenY, svg.width/7, svg.height/7);
 	for (let i=1; i<8; i+=4){
 		scribble.scribbleCurve(originX+(lenOfCurve*(i-1)), originY, originX+lenOfCurve*i, originY-(2*lenOfCurve/pi), originX+(lenOfCurve*(i-1))+(0.3642*lenOfCurve), originY, originX+(lenOfCurve*(i-1))+lenOfCurve*0.6358, originY-(2*lenOfCurve/pi));
 		scribble.scribbleCurve(originX+lenOfCurve*i, originY-(2*lenOfCurve/pi), originX+(lenOfCurve*(i+1)), originY, originX+lenOfCurve*i+(0.3642*lenOfCurve),originY-(2*lenOfCurve/pi),originX+(lenOfCurve*(i+1))-(0.3642*lenOfCurve),originY);
