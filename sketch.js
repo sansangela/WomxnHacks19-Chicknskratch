@@ -32,7 +32,7 @@ function draw() {
 	// draws x, y axis
 	var lenOfCurve= (endX-originX)/8;
 	scribble.scribbleLine(originX, originY, endX, originY );
-	scribble.scribbleLine(originX, originY-windowHeight/2, originX, originY);
+	scribble.scribbleLine(originX, originY-halfHeight, originX, originY);
 	scribble.scribbleRect(originX,originY,15,15);
 	image(img, mouseX-img.width/(2*7)+displacementChickenX, originY-img.height/(7*2)+displacementChickenY, img.width/7, img.height/7);
 	for (let i=1; i<8; i+=4){
