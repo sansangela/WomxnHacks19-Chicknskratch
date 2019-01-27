@@ -17,9 +17,9 @@ function setup() {
 	stroke(0);
 	fill(0);
 	points = font.textToPoints('"move left hand to change amplitude, right hand for pitch"', 0, 0, 10, {
-    sampleFactor: 5,
-    simplifyThreshold: 0
-    });
+		sampleFactor: 5,
+		simplifyThreshold: 0
+	});
 }
 
 function draw() {
