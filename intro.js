@@ -5,13 +5,14 @@ var windowWidth = window.innerWidth*2/3;
 let points;
 let bounds;
 let font;
+var myCanvas;
 
 function preload() {
   font = loadFont('avenir.otf');
 }
 
 function setup() {
-	var myCanvas = createCanvas(windowWidth, windowHeight);
+	myCanvas = createCanvas(windowWidth, windowHeight);
 	myCanvas.parent("shake");
 	stroke(0);
 	fill(0);
