@@ -8,7 +8,8 @@ let font;
 var myCanvas;
 
 function preload() {
-  font = loadFont('avenir.otf');
+	textSize(40);
+	font = loadFont('avenir.otf');
 }
 
 function setup() {
@@ -16,8 +17,7 @@ function setup() {
 	myCanvas.parent("shake");
 	stroke(0);
 	fill(0);
-	textSize(40);
-	points = font.textToPoints("move left hand to change amplitude, right hand for pitch", 0, 0, 10, {
+	points = font.textToPoints("move left hand to change amplitude, right hand for pitch", 0, 0, 40, {
 		sampleFactor: 5,
 		simplifyThreshold: 0
 	});
