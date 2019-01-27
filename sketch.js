@@ -1,5 +1,5 @@
 var scribble = new Scribble();
-var windowHeight = window.innerHeight*0.7;
+var windowHeight = 600;
 var windowWidth = window.innerWidth;
 var originX = windowWidth/15;
 var originY = windowHeight/2;
