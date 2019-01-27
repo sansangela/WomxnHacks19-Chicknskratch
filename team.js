@@ -21,6 +21,6 @@ function draw() {
 	stroke(0);
 	textFont(font);
 	textSize(30);
-	text("move left hand to change amplitude, right hand for pitch",windowWidth/10, windowHeight/3);
+	text("Angela, Jaya, Riley, Yichen",windowWidth/10, windowHeight/3);
 }
 
