@@ -1,3 +1,7 @@
+@font-face{
+ font-family: "Chalkduster";
+ src: url(/Chalkduster/Chalkduster.ttf);
+}
 body{
  background:#FFFFF0;
  }
@@ -5,6 +9,5 @@ h1{
 font-family: Georgia;
 }
 h2{
- font-family: 'Chalkduster';
- src: url('/Chalkduster/Chalkduster.ttf')
-}
+ font-family: "Chalkduster";
+ }
