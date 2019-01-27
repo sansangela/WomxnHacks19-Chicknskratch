@@ -5,8 +5,9 @@ var originX = windowWidth/15;
 var originY = windowHeight/2;
 var pi = 3.1415926;
 var img; 
+var canvas;
 function setup() {
-	createCanvas(windowWidth, windowHeight);
+	canvas = createCanvas(windowWidth, windowHeight);
 	canvas.parent('shake');
 	frameRate(20);
 	img = loadImage('png/chicken1betterlineweight.png');
