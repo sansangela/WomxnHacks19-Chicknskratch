@@ -7,7 +7,8 @@ var pi = 3.1415926;
 var img;
 var scale;
 function setup() {
-	createCanvas(windowWidth, windowHeight);
+	var myCanvas = createCanvas(windowWidth, windowHeight);
+	myCanvas.parent("shake");
 	frameRate(20);
 	img = loadImage('png/chicken1betterlineweight.png');
 	scale = 7;
