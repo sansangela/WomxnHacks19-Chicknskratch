@@ -5,8 +5,9 @@ var originX = windowWidth/15;
 var originY = windowHeight/2;
 var pi = 3.1415926;
 var img;
+var canvas;
 function setup() {
-	createCanvas(windowWidth, windowHeight);
+	canvas = createCanvas(windowWidth, windowHeight);
 	frameRate(20);
 	img = loadImage('png/chicken1betterlineweight.png');
 }
@@ -15,6 +16,7 @@ function draw() {
 	background(255);
 	stroke(0);
 	strokeWeight(1);
+	canvas.position(window.innerWidth/3,0);
 	// will later get replaced by actual coordinates
 	var displacementChickenX=random(-2,2);
 	var displacementChickenY=random(-2,2);
