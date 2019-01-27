@@ -1,14 +1,13 @@
 var scribble = new Scribble();
 var windowHeight = window.innerWidth;
 var windowWidth = window.innerHeight;
-var cnv;
 var halfHeight = windowHeight/2;
 var originX = windowWidth/15;
 var originY = halfHeight;
 var pi = 3.1415926;
 var img; 
 function setup() {
-	createCanvas(windowWidth*0.98, windowHeight*0.6);
+	createCanvas(windowWidth*0.98, windowHeight);
 	frameRate(20);
 	img = loadImage('png/chicken1betterlineweight.png');
 }
