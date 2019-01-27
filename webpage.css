@@ -1,6 +1,10 @@
-@font-face{
- font-family: "Chalkduster";
- src: url(/Chalkduster/Chalkduster.ttf);
+@font-face {
+    font-family: 'northenregular';
+    src: url('northen-webfont.woff2') format('woff2'),
+         url('northen-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 body{
  background:#FFFFF0;
@@ -9,5 +13,5 @@ h1{
 font-family: Georgia;
 }
 h2{
- font-family: "Chalkduster";
+ font-family: nothenregular;
  }
