@@ -30,7 +30,7 @@ function draw() {
 	text("move left hand to change amplitude, right hand for pitch")
 	for (var i = 0; i < points.length; i++) {
 		var pt = points[i];
-		scribble.scribbleEllipse( pt.x, pt.y, 5, 5 );
+		scribble.scribbleEllipse( pt.x, pt.y, 1, 1 );
 	}
 }
 
